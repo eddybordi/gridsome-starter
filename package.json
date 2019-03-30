@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bulma": "^0.7.4",
+    "gridsome": "^0.5.0",
+    "vue-analytics": "^5.16.4",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-resources-loader": "^1.2.1"
+  }
+}
