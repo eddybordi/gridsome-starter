@@ -4,7 +4,11 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  state: {},
-  mutations: {},
+  state: {
+  	count: 0
+  },
+  mutations: {
+  	addOne: (state, data) => state.count++
+  },
   actions: {}
 })
